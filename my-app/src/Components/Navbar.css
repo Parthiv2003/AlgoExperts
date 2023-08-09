@@ -1,0 +1,31 @@
+.d1{
+    background-color: black;
+}
+
+.image{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 40px;
+    height: 40px;
+}
+
+.na{
+    justify-content: right;
+}
+
+.start, .about, .logout {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block; 
+    margin: 3px;
+    /* margin-right: 2%; */
+    transition: background-color 0.3s;
+}
+
+.start:hover, .about:hover, .logout:hover {
+    background-color: green;
+}

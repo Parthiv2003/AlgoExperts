@@ -1,0 +1,225 @@
+.nav-link{
+    color: rgb(13, 76, 222);
+    margin-top: 28px;
+    font-size: 16px;
+}
+
+.nav-link:active{
+    font-weight: 600 !important;
+    color: rgb(13, 76, 222) !important;
+}
+
+.nav-tabs{
+    margin-left: 18%;
+}
+
+.lm{
+    margin-left: 30%;
+}
+
+.go-top{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    right: 30px;
+    bottom: 15px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    z-index: 2;
+    font-size: 30px;
+    border-radius: 10px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.go-top.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.go-top:hover{
+    box-shadow: 0px 0px 8px 5px rgb(33, 159, 33);
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.inner-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.inner-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.inner-container {
+    padding: 2px 16px;
+}
+
+.head{
+    float: left;
+    background-color: rgb(5, 117, 5);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.expl{
+    text-align: left;
+    font-size: 17px;
+    margin: 0px 10%;
+}
+
+.testcase{
+    width: 80%;
+}
+
+.testcase tr{
+    font-size: 16px;
+    text-align: left;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.testcase tr td,th{
+    padding: 5px 10px;
+}
+
+.copy{
+    float: right; 
+    border-radius: 6px; 
+    border: 1px solid gray;
+}
+
+.toolTip{
+    position: relative;
+}
+
+.toolTip .toolText {
+    visibility: hidden;
+    background-color: dimgray;
+    color: white;
+    width: 250%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 7px;
+    position: absolute;
+    z-index: 1;
+    bottom: -185%;
+    left: -100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.toolTip .toolText::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    margin-left: 5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent dimgray transparent;
+}
+
+.toolTip:hover .toolText {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tag{
+    border-radius: 50px 50px;
+    border: 2px solid blue;
+    padding: 5px 20px;
+    font-size: 17px;
+    width: 18%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: firebrick;
+    background: linear-gradient(to top right,rgb(17, 115, 236),rgb(0, 255, 94));
+}
+
+.code{
+    height: 50vh;
+    font-size: 17px;
+    border: 2px solid dimgray;
+    overflow: scroll;
+}
+
+#practice{
+    width: 80%;
+    height: 50vh;
+    resize: none;
+    overflow: scroll;
+    text-indent: 0px;
+}
+
+#online{
+    color: darkcyan;
+    text-decoration: none;
+    float: right;
+}    
+
+.query{
+    width: 120%;
+    border-radius: 5px;
+    border: 2px solid dimgray;
+    padding: 5px;
+}
+
+.post{
+    width: 100px;
+    padding: 5px;
+    height: auto;
+    border: 2px solid dimgray;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 8px;
+}
+
+#cf{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#cf_link{
+    padding: 5px;
+    border: 2px solid dimgray;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#back{
+    font-size: 50px;
+    color: blue;
+} 

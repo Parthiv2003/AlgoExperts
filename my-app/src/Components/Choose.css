@@ -1,0 +1,35 @@
+.btn1{
+    width: 50%; 
+    margin-left: 2%; 
+    margin-top: 5%;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: .8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn1:hover{
+    background-color: green;
+}
+
+.btn2:hover{
+    background-color: green;
+}
+
+.btn2{
+    width: 50%; 
+    margin-left: 3%; 
+    margin-top: 10%;
+    border: none;
+    background-color: black;
+    font-size: 40px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: .9;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

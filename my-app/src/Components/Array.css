@@ -1,0 +1,51 @@
+.border{
+    width: 90%;
+    margin-left: 3%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.border:hover{
+    box-shadow: 0px 0px 8px 8px rgb(180, 179, 179);
+}
+
+.img{   
+    width: 99%;
+    height: 100%;
+}
+
+.video{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.expl{
+    text-align: left;
+    font-size: 17px;
+}  
+
+#code{
+    height: 50vh;
+    font-size: 17px;
+    border: 2px solid dimgray;
+    overflow: scroll;
+    margin-bottom: 5%;
+}
+
+.area{
+    height: 300px;
+    resize: none;
+}
+
+p{
+    margin-left: 0%;
+}
+
+#Information{
+    text-align: left;
+}
+
+.bt:hover{
+    background-color: green;
+}

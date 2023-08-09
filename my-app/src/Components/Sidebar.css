@@ -1,0 +1,24 @@
+.sidebar{
+    margin-top: 0%;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    overflow: scroll;
+    background-color: black;
+}
+
+.dec{
+    text-decoration: none;
+    width: 98%;
+    border: none;
+    margin: 2%;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+}
+
+.dec:hover{
+    background-color: green;
+    border-radius: 10px;
+}
