@@ -8,7 +8,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const JWT_SECRET = "bcdhnbfckhgunrimv5645756/()?asdxzcfrtg564237hf{}[]";
 
-// const mongoUrl = "mongodb+srv://IITBombay:IITBombay@cluster0.8ejq25a.mongodb.net/?retryWrites=true&w=majority";
 const mongoUrl = "mongodb://127.0.0.1:27017/userinfo"
 mongoose.connect(mongoUrl,{
     useNewUrlParser:true
